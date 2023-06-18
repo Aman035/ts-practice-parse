@@ -30,3 +30,5 @@ Standard Script commands defined in package.json
 Specifying tsc config for build by changing tsCongif.json ( set up using tsc --init )
 
 ##### V1
+
+Reading csv files in not a resuable code and every data is present as string. Ideally we can parse some of the values as date or number
