@@ -32,3 +32,8 @@ Specifying tsc config for build by changing tsCongif.json ( set up using tsc --i
 ##### V1
 
 Reading csv files in not a resuable code and every data is present as string. Ideally we can parse some of the values as date or number
+
+##### V2
+
+Added a CSV Reader file and type style type for data.
+Issue - Still CsvReader is not a type of class that can be used in any other project since it parse data specificly for this dataset
