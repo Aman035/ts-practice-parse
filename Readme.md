@@ -37,3 +37,14 @@ Reading csv files in not a resuable code and every data is present as string. Id
 
 Added a CSV Reader file and type style type for data.
 Issue - Still CsvReader is not a type of class that can be used in any other project since it parse data specificly for this dataset
+
+##### V3
+
+**Refactor Approach 1**
+Refactor of CsvReader file using Generic Type - Allows to pass diff types in a class rather than building diff classes itself
+This approach uses inheritence.
+
+**Refactor Approach 2**
+Refactor using composition
+Usually inheritence is used on **is** relationship whereas composition is used on **has** relationship.
+In this case MatchReader can have data from other source also such as APIReader ( has a relationship ) so composition makes sense.
