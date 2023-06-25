@@ -52,3 +52,7 @@ In this case MatchReader can have data from other source also such as APIReader 
 ##### V4
 
 Building seperate classes for Analysis purpose rather than hardcoding fn for a particular team
+
+##### V5
+
+Implementing static fn in classes to enable creating class instances with prefined templates

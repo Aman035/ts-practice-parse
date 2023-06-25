@@ -2,8 +2,19 @@ import { MatchResult } from '../enums'
 import { IDataReader } from '../interfaces'
 import { MatchData } from '../types'
 import { DateStringToDate } from '../utils'
+import { CsvReader } from './CsvReader'
 
 export class MatchReader {
+  /**
+   * STATIC FN
+   * Creates a template for Class to read from Csv
+   * @param fileName file to be read
+   * @returns
+   */
+  static fromCsv(fileName: string): MatchReader {
+    return new MatchReader(new CsvReader(fileName))
+  }
+
   matchData: MatchData[] = []
   constructor(public reader: IDataReader) {}
 
