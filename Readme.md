@@ -48,3 +48,7 @@ This approach uses inheritence.
 Refactor using composition
 Usually inheritence is used on **is** relationship whereas composition is used on **has** relationship.
 In this case MatchReader can have data from other source also such as APIReader ( has a relationship ) so composition makes sense.
+
+##### V4
+
+Building seperate classes for Analysis purpose rather than hardcoding fn for a particular team

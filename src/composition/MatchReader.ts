@@ -1,7 +1,7 @@
-import { MatchResult } from './enums'
-import { IDataReader } from './interfaces'
-import { MatchData } from './types'
-import { DateStringToDate } from './utils'
+import { MatchResult } from '../enums'
+import { IDataReader } from '../interfaces'
+import { MatchData } from '../types'
+import { DateStringToDate } from '../utils'
 
 export class MatchReader {
   matchData: MatchData[] = []
