@@ -1,8 +1,10 @@
 # PARSE
 
+---
+
 ### Project Goal
 
-To load, parse and analyze data from a CSV file
+## To load, parse and analyze data from a CSV file
 
 ### Steps To Run
 
@@ -20,6 +22,8 @@ To load, parse and analyze data from a CSV file
 
 `npm start
 `
+
+---
 
 ## Notes For Dev
 
